@@ -1,5 +1,5 @@
 {
-  "name": "plin-asaas-omie-integration",
+  "name": "lambda-aws-model",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
