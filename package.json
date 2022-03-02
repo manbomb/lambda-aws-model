@@ -27,6 +27,5 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "textract-filters": "^0.0.7"
   }
 }
