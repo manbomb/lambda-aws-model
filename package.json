@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon -x jest",
+    "test": "jest",
+    "watch": "jest --watch",
     "build": "gulp"
   },
   "author": "",
@@ -13,8 +14,7 @@
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/build/"
-    ],
-    "testTimeout": 10000
+    ]
   },
   "devDependencies": {
     "aws-sdk": "^2.1072.0",
@@ -23,8 +23,7 @@
     "gulp": "^4.0.2",
     "gulp-run": "^1.7.1",
     "gulp-zip": "^5.1.0",
-    "jest": "^27.5.1",
-    "nodemon": "^2.0.15"
+    "jest": "^27.5.1"
   },
   "dependencies": {
   }
