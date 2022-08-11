@@ -10,7 +10,6 @@ AWS.config.credentials = new AWS.SharedIniFileCredentials({profile: process.env.
 
 test('Silly', async () => {
     const response = await main();
-    const strResponse = JSON.stringify(response);
 
-    expect(strResponse).toBe("{}");
+    expect(strResponse).toStrictEqual({});
 });
